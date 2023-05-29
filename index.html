@@ -20,10 +20,17 @@
             <h2>Contact Information</h2>
             <p>Email: sample@example.com</p>
         </section>
+        <button onclick="changeText()">Click me</button>
     </main>
 
     <footer>
         <p>Copyright &copy; 2023 My Sample Page</p>
     </footer>
+    <script>
+    function changeText() {
+        var header = document.getElementById('myHeader');
+        header.innerHTML = 'Hello GitHub Pages!';
+    }
+    </script>
 </body>
 </html>
